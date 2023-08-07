@@ -182,6 +182,9 @@ ul {
   text-align: left;
   color: #ffffff99;
 }
+.btn-align {
+  display: inline-flex;
+}
 .boton-top-portafolio {
   width: 128px;
   height: 38px;
@@ -213,6 +216,9 @@ ul {
   color: #ffffff;
   border: none;
   background-color: #2196f3;
+}
+.imagenes-portafolio {
+  display: inline-flex;
 }
 .nombre-de-producto {
   font-family: 'Roboto', sans-serif;
