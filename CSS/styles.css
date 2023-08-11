@@ -3,18 +3,20 @@ a:visited,
 a:active {
   text-decoration: none;
 }
-
+.outline {
+  outline: none;
+}
 ul {
   list-style: none;
 }
 .logo-inicio {
   color: #2196f3;
-  font-weight: bolder;
+  font-weight: normal;
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 31px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
   text-align: left;
 }
 .site-nav {
@@ -22,13 +24,15 @@ ul {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
-.site-nav:hover {
+.site-nav:hover,
+.site-nav:focus {
   color: #2196f3;
 }
 .contact-links {
   color: black;
 }
-.contact-links:hover {
+.contact-links:hover,
+.contact-links:focus {
   color: #2196f3;
 }
 .current {
@@ -39,6 +43,7 @@ ul {
   color: white;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 16px;
+  font-weight: 700;
   text-align: center;
   background-color: #2196f3;
   border: none;
@@ -47,7 +52,8 @@ ul {
   height: 50px;
   cursor: pointer;
 }
-.boton-solicitud:hover {
+.boton-solicitud:hover,
+.boton-solicitud:focus {
   color: white;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -62,14 +68,13 @@ ul {
 }
 .slogan-top {
   color: white;
-  font-size: 23px;
+  font-size: 22px;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-weight: 900;
   text-align: center;
   background-color: #2f303a;
   align-items: center;
-  width: 1600px;
-  height: 400px;
+  width: auto;
   line-height: 60px;
   letter-spacing: 0.03em;
   display: block;
@@ -84,7 +89,8 @@ ul {
   color: #212121;
   line-height: 16.41px;
 }
-.descripcion-titulos:hover {
+.descripcion-titulos:hover,
+.descripcion-titulos:focus {
   font-family: 'roboto', Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #757575;
@@ -139,12 +145,13 @@ ul {
 }
 .logo-footer {
   color: #2196f3;
-  font-weight: bolder;
+  font-weight: normal;
   font-family: 'Raleway', sans-serif;
+  font-style: normal;
   font-size: 26px;
   font-weight: 700;
   line-height: 31px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
   text-align: left;
 }
 .direccion {
@@ -154,15 +161,21 @@ ul {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: left;
+  color: #ffffff99;
+}
+.direccion:hover,
+.direccion:focus {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
   color: #ffffff;
-  width: 231px;
-  height: 21px;
-  box-sizing: 2px 2px;
 }
 .footer {
   background: #2f303a;
-  width: 1600px;
-  height: 252px;
+  width: auto;
 }
 .email-footer {
   font-family: 'Roboto', sans-serif;
@@ -173,6 +186,16 @@ ul {
   text-align: left;
   color: #ffffff99;
 }
+.email-footer:hover,
+.email-footer:focus {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
+}
 .tel-footer {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -182,8 +205,15 @@ ul {
   text-align: left;
   color: #ffffff99;
 }
-.btn-align {
-  display: inline-flex;
+.tel-footer:hover,
+.tel-footer:focus {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
 }
 .boton-top-portafolio {
   width: 128px;
@@ -200,8 +230,10 @@ ul {
   color: #212121;
   border: none;
   background-color: #2121;
+  cursor: pointer;
 }
-.boton-top-portafolio:hover {
+.boton-top-portafolio:hover,
+.boton-top-portafolio:focus {
   width: 128px;
   height: 38px;
   top: 186px;
@@ -216,9 +248,7 @@ ul {
   color: #ffffff;
   border: none;
   background-color: #2196f3;
-}
-.imagenes-portafolio {
-  display: inline-flex;
+  cursor: pointer;
 }
 .nombre-de-producto {
   font-family: 'Roboto', sans-serif;
@@ -248,13 +278,22 @@ ul {
 }
 .footer-portafolio {
   background: #2f303a;
-  width: 1600px;
-  height: 252px;
+  width: auto;
 }
 .direccion-portafolio {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff99;
+}
+.direccion-portafolio:hover,
+.direccion-portafolio:focus {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400px;
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: left;
@@ -269,6 +308,16 @@ ul {
   text-align: left;
   color: #ffffff99;
 }
+.email-footer-portafolio:hover,
+.email-footer-portafolio:focus {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
+}
 .tel-footer-portafolio {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -277,5 +326,15 @@ ul {
   letter-spacing: 0.03em;
   text-align: left;
   color: #ffffff99;
+}
+.tel-footer-portafolio:hover,
+.tel-footer-portafolio:focus {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
 }
 /* Este es el fin del codigo */
