@@ -12,26 +12,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <header>
-      <a href="#" class="logo-inicio">WebStudio </a>
-      <nav>
+    <header class="container-header">
+      <div class="container-nav">
+        <a href="./index.html" class="logo-inicio container-nav">WebStudio</a>
+        <nav>
+          <ul class="site-nav">
+            <li><a href="#" class="site-nav current">Estudio</a></li>
+            <li><a href="./Portafolio.html" class="site-nav">Portafolio</a></li>
+            <li><a href="#" class="site-nav">Contactos</a></li>
+          </ul>
+        </nav>
         <ul>
-          <li><a href="#" class="site-nav current">Estudio</a></li>
-          <li><a href="./Portafolio.html" class="site-nav">Portafolio</a></li>
-          <li><a href="#" class="site-nav">Contactos</a></li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="contact-links"> info@devstudio.com</a>
+          </li>
+          <li><a href="tel:+525555296000" class="contact-links"> +52 55 5529 6000</a></li>
         </ul>
-      </nav>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com" class="contact-links"> info@devstudio.com</a>
-        </li>
-        <li><a href="tel:+525555296000" class="contact-links"> +52 55 5529 6000</a></li>
-      </ul>
+      </div>
     </header>
     <main>
       <section id="main__main" class="slogan-top">
@@ -41,31 +43,31 @@
         </div>
       </section>
       <section id="main__descripcion">
-        <ul>
+        <ul class="descripcion-bloque container">
           <li>
             <h3 class="descripcion-titulos">ATENCIÓN A LOS DETALLES</h3>
-            <p class="parrafos-descripcion">
+            <p class="parrafos-descripcion container-text">
               Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar
               una solución a su medida.
             </p>
           </li>
           <li>
             <h3 class="descripcion-titulos">PUNTUALIDAD</h3>
-            <p class="parrafos-descripcion">
+            <p class="parrafos-descripcion container-text">
               Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar
               una solución a su medida.
             </p>
           </li>
           <li>
             <h3 class="descripcion-titulos">PLANIFICACIÓN</h3>
-            <p class="parrafos-descripcion">
+            <p class="parrafos-descripcion container-text">
               Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar
               una solución a su medida.
             </p>
           </li>
           <li>
             <h3 class="descripcion-titulos">TEGNOLOGÍA MODERNA</h3>
-            <p class="parrafos-descripcion">
+            <p class="parrafos-descripcion container-text">
               Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar
               una solución a su medida.
             </p>
@@ -74,62 +76,64 @@
       </section>
       <section id="main__ofrecemos">
         <h2 class="que-ofrecemos-titulo">A qué nos dedicamos</h2>
-        <ul class="imagenes-ofrecemos">
+        <ul class="imagenes-ofrecemos container">
           <li>
-            <img src="./Imagenes/caja-1.jpg" alt="primera-imagen-izq" width="373" />
+            <img src="./Images/caja-1.jpg" alt="primera-imagen-izq" width="373" />
           </li>
           <li>
-            <img src="./Imagenes/caja-2.jpg" alt="segunda-imagen-centro" width="373" />
+            <img src="./Images/caja-2.jpg" alt="segunda-imagen-centro" width="373" />
           </li>
           <li>
-            <img src="./Imagenes/caja-3.jpg" alt="tercera-image-der" width="373" />
+            <img src="./Images/caja-3.jpg" alt="tercera-image-der" width="373" />
           </li>
         </ul>
       </section>
       <section id="main__Equipo">
         <h2 class="equipo">Nuestro Equipo</h2>
-        <ul class="lista-img-equipo">
-          <li>
+        <ul class="lista-img-equipo container">
+          <li class="container-cards">
             <img
               class="imagen-equipo"
-              src="./Imagenes/Andres-Cubo.jpg"
+              src="./Images/Andres-Cubo.jpg"
               alt="Andres Cubo"
               width="270"
             />
             <h3 class="nombre">Andrés Cubo</h3>
             <p class="profesion">Diseñador de Productos</p>
           </li>
-          <li>
-            <img src="./Imagenes/Carla-Palacios.jpg" width="270" alt="carla-palacios" />
+          <li class="container-cards">
+            <img src="./Images/Carla-Palacios.jpg" width="270" alt="carla-palacios" />
             <h3 class="nombre">Carla Palacios</h3>
             <p class="profesion">Desarrolladora Frontend</p>
           </li>
-          <li>
-            <img src="./Imagenes/Mario-Dorado.jpg" width="270" alt="mario-dorado" />
+          <li class="container-cards">
+            <img src="./Images/Mario-Dorado.jpg" width="270" alt="mario-dorado" />
             <h3 class="nombre">Mario Dorado</h3>
             <p class="profesion">Marketing</p>
           </li>
-          <li>
-            <img src="./Imagenes/Pablo-Mijangos.jpg" width="270" alt="pablo-mijangos" />
+          <li class="container-cards">
+            <img src="./Images/Pablo-Mijangos.jpg" width="270" alt="pablo-mijangos" />
             <h3 class="nombre">Pablo Mijangos</h3>
             <p class="profesion">Diseñador IU</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer id="contactos">
-      <div class="footer">
-        <a href="#" class="logo-footer outline">WebStudio</a>
+    <footer id="contac">
+      <div class="footer container">
+        <a href="#" class="logo-footer">WebStudio</a>
         <address>
-          <ul>
-            <li>
-              <a href="#" class="direccion">Calz. Ticomán 500, Ciudad de México, CDMX, México</a>
-            </li>
-            <li>
-              <a class="email-footer" href="mailto:info@example.com"> info@example.com</a>
-            </li>
-            <li><a class="tel-footer" href="tel:+525555296000"> +52 55 5529 6000</a></li>
-          </ul>
+          <div class="container-contact">
+            <ul>
+              <li>
+                <a href="#" class="direccion">Calz. Ticomán 500, Ciudad de México, CDMX, México</a>
+              </li>
+              <li>
+                <a class="email-footer" href="mailto:info@example.com"> info@example.com</a>
+              </li>
+              <li><a class="tel-footer" href="tel:+525555296000"> +52 55 5529 6000</a></li>
+            </ul>
+          </div>
         </address>
       </div>
     </footer>

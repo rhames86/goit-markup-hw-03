@@ -9,20 +9,25 @@ a:active {
 ul {
   list-style: none;
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  background-color: lime;
+}
 .logo-inicio {
   color: #2196f3;
   font-weight: normal;
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
-  font-weight: 700;
-  line-height: 31px;
+  /* line-height: 31px; */
   letter-spacing: 0.04em;
-  text-align: left;
 }
 .site-nav {
   color: black;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-weight: 500;
 }
 .site-nav:hover,
 .site-nav:focus {
@@ -39,6 +44,23 @@ ul {
   color: #2196f3;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
+.container-nav {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+}
+.container-header {
+  width: auto;
+  background-color: teal;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+}
 .boton-solicitud {
   color: white;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -51,6 +73,7 @@ ul {
   width: 261px;
   height: 50px;
   cursor: pointer;
+  letter-spacing: 0.5px;
 }
 .boton-solicitud:hover,
 .boton-solicitud:focus {
@@ -82,6 +105,23 @@ ul {
   margin-inline-end: 0px;
   margin-inline-start: 0px;
 }
+.container-slogan-top {
+  width: 522px;
+  padding-top: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 100px;
+  margin: auto;
+  align-items: center;
+  background-color: #2f303a;
+}
+.descripcion-bloque {
+  width: 1200px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 .descripcion-titulos {
   font-family: 'roboto', Arial, Helvetica, sans-serif;
   font-weight: bolder;
@@ -102,6 +142,10 @@ ul {
   letter-spacing: 3%;
   font-size: 14px;
 }
+.que-ofrecemos-container {
+  width: 1200;
+  height: 486;
+}
 .que-ofrecemos-titulo {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 36px;
@@ -110,10 +154,18 @@ ul {
   text-align: center;
 }
 .imagenes-ofrecemos {
-  background: white;
+  background: rgb(1, 5, 255);
   box-sizing: border-box;
   display: inline-flex;
   justify-items: auto;
+  display: flex;
+  gap: 30px;
+  justify-items: center;
+}
+.imagenes-ofrecemos-container {
+  width: 1200px;
+  justify-items: center;
+  background-color: orangered;
 }
 .equipo {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -122,18 +174,69 @@ ul {
   color: #212121;
   text-align: center;
 }
+.container-equipo {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  justify-content: center;
+  background-color: yellow;
+}
 .lista-img-equipo {
-  background: white;
+  background: rgb(255, 255, 255);
   box-sizing: border-box;
   display: inline-flex;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.container-cards {
+  width: 270px;
+  background-color: #ffffff;
+  padding-bottom: 15px;
+  justify-content: center;
+}
+.container-cards:hover {
+  width: 270px;
+  background-color: #ffffff;
+  padding-bottom: 15px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  justify-content: center;
+}
+.container-cards-position {
+  width: 1200px;
+  background-color: #d0ff00;
+  display: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px 15px;
+  justify-content: center;
+}
+.card {
+  width: 370px;
+  height: 404px;
+  background-color: orange;
+  display: inline-block;
+  flex-wrap: nowrap;
+  text-align: justify;
+}
+.card:hover,
+.card::shadow {
+  width: 370px;
+  height: 404px;
+  border: #ff0000 10px;
+  display: inline-block;
 }
 .nombre {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: bolder;
-  line-height: 19px;
+  line-height: 10px;
   letter-spacing: 0.03em;
   color: #212121;
+  text-align: center;
 }
 .profesion {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -142,17 +245,17 @@ ul {
   line-height: 19px;
   letter-spacing: 0.03em;
   color: #757575;
+  text-align: center;
 }
 .logo-footer {
   color: #2196f3;
   font-weight: normal;
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-size: 26px;
-  font-weight: 700;
   line-height: 31px;
   letter-spacing: 0.04em;
-  text-align: left;
+  width: 1200px;
+  padding: 40px;
 }
 .direccion {
   font-family: 'Roboto', sans-serif;
@@ -176,6 +279,15 @@ ul {
 .footer {
   background: #2f303a;
   width: auto;
+  /* display: flex; */
+  background-color: #2f303a;
+  margin-top: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.container-contact {
+  max-width: 240px;
+  line-height: 10px;
 }
 .email-footer {
   font-family: 'Roboto', sans-serif;
@@ -214,6 +326,12 @@ ul {
   letter-spacing: 0.03em;
   text-align: left;
   color: #ffffff;
+}
+.botones-portafolio {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  background-color: #2196f3;
 }
 .boton-top-portafolio {
   width: 128px;
@@ -255,26 +373,53 @@ ul {
   color: #212121;
   font-size: 18px;
   font-weight: 700;
-  line-height: 36px;
   letter-spacing: 0.06em;
   text-align: left;
   width: 322px;
-  height: 36px;
-  top: 588px;
-  left: 239px;
+  /* box-sizing: content-box; */
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0px;
 }
+.nombre-de-producto-poster {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: left;
+  width: 322px;
+  box-sizing: content-box;
+  padding: 10px;
+  /* box-sizing: border-box; */
+  margin: 0px;
+}
+
 .categoria {
   font-family: 'Roboto', sans-serif;
   color: #757575;
   font-size: 16px;
   font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0.03em;
+  line-height: 0;
+  letter-spacing: 0.03rem;
   text-align: left;
   width: 322px;
-  height: 30px;
-  top: 628px;
-  left: 239px;
+  padding: 10px;
+  margin-bottom: 0px;
+  box-sizing: border-box;
+}
+.categoria-2 {
+  font-family: 'Roboto', sans-serif;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 0;
+  letter-spacing: 0.03rem;
+  text-align: left;
+  width: 322px;
+  padding: 10px;
+  margin-bottom: 0px;
+  box-sizing: border-box;
 }
 .footer-portafolio {
   background: #2f303a;
@@ -336,5 +481,9 @@ ul {
   letter-spacing: 0.03em;
   text-align: left;
   color: #ffffff;
+}
+.container-text {
+  width: 270px;
+  gap: 30;
 }
 /* Este es el fin del codigo */
