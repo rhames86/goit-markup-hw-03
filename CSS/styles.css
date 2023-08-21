@@ -193,6 +193,7 @@ ul {
   display: flex;
   gap: 30px;
   justify-content: center;
+  margin-bottom: 30px;
 }
 .container-cards {
   width: 270px;
@@ -291,7 +292,7 @@ ul {
   padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 .footer {
   background: #2f303a;
