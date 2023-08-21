@@ -291,6 +291,7 @@ ul {
   padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
+  margin-top: 60px;
 }
 .footer {
   background: #2f303a;
