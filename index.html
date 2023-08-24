@@ -17,14 +17,16 @@
     />
   </head>
   <body>
-    <header class="header border-bottom">
+    <header class="container-header border-bottom">
       <nav class="container navigation__container">
-        <ul class="hero__navegation list">
-          <li>
-            <a href="./index.html" class="header-home link current">
+        <ul class="list pv-main">
+          <li class="container-logo">
+            <a href="./index.html" class="header-logo link current">
               <span class="logo-blue"> WebStudio</span>
             </a>
           </li>
+        </ul>
+        <ul class="hero__navegation pv-main pv-navigavion">
           <li>
             <a href="./index.html" class="header-menu current link"> Estudio</a>
           </li>
@@ -35,7 +37,7 @@
             <a href="#" class="link">Contacto</a>
           </li>
         </ul>
-        <ul class="hero__contact list">
+        <ul class="hero__contact list pv-main pv-contacts">
           <li class="">
             <a class="header-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
@@ -127,25 +129,19 @@
         </ul>
       </section>
     </main>
-    <footer id="contacts-footer" class="footer-container footer-p">
-      <div><ul class="footer container">
-        <li>
-          <a href="./index.html" class="logo-footer">
-            <span class="logo-footer"> WebStudio</span>
-          </a>
-        </li>
-      </div>
-      <div class="footer container">
-                <address>
+    <footer id="contacts-footer" class="footer-container">
+      <div class="footer">
+        <a href="#" class="logo-footer">WebStudio</a>
+        <address>
           <div class="container-contact">
             <ul>
               <li>
                 <a href="#" class="direccion">Calz. Ticomán 500, Ciudad de México, CDMX, México</a>
               </li>
               <li>
-                <a class="email-footer-portafolio" href="mailto:info@example.com"> info@example.com</a>
+                <a class="email-footer" href="mailto:info@example.com"> info@example.com</a>
               </li>
-              <li><a class="tel-footer-portafolio" href="tel:+525555296000"> +52 55 5529 6000</a></li>
+              <li><a class="tel-footer" href="tel:+525555296000"> +52 55 5529 6000</a></li>
             </ul>
           </div>
         </address>

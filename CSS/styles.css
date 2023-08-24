@@ -21,6 +21,8 @@ ul {
 }
 .container {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: auto;
   background-color: #ffffff;
 }
@@ -34,17 +36,22 @@ ul {
 .navigation__container {
   width: 1200px;
   display: flex;
-  justify-content: space-between;
   background-color: #ffffff;
   padding-left: 5px;
 }
 .pv-main {
   padding: 24px 0px 25px 0px;
 }
+.pv-navigavion {
+  padding-left: 93px;
+}
+.pv-contacts {
+  padding-left: 366px;
+}
 .hero__navegation {
   display: flex;
-  column-gap: 80px;
-  justify-content: center;
+  column-gap: 50px;
+  justify-content: flex-start;
   align-content: center;
   background-color: #ffffff;
 }
@@ -80,13 +87,13 @@ ul {
 .link:hover {
   color: var(--blue);
 }
-.header-home {
-  margin-right: 50px;
+.header-logo {
+  padding-left: 0px;
 }
 .hero__contact {
   display: flex;
-  gap: 40px;
-  justify-content: center;
+  gap: 50px;
+  justify-content: flex-end;
   align-items: center;
   background-color: #ffffff;
 }
@@ -140,7 +147,7 @@ ul {
   align-items: center;
   padding: 0%;
   margin: 0px;
-  background-color: #ffb52c;
+  background-color: #ffffff;
 }
 .site-nav:hover,
 .site-nav:focus {
@@ -175,8 +182,15 @@ ul {
 }
 .container-header {
   width: auto;
-  height: 80px;
-  background-color: #fff;
+  background-color: #ffffff;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+}
+.container-logo {
+  width: auto;
+  background-color: #ffffff;
   justify-content: center;
   align-content: center;
   align-items: center;
@@ -401,13 +415,27 @@ ul {
 .footer-container {
   width: auto;
   background-color: #2f303a;
-  justify-content: right;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  margin-top: 60px;
 }
 .footer {
   background: #2f303a;
   width: 1200px;
   /* display: flex; */
   background-color: #2f303a;
+}
+.logo-footer {
+  color: #2196f3;
+  font-weight: normal;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.04em;
+  width: 1200px;
+  padding: 40px;
 }
 .container-contact {
   max-width: 237px;
