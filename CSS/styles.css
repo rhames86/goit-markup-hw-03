@@ -240,6 +240,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-top: 95px;
 }
 .descripcion-titulos {
   font-family: 'roboto', Arial, Helvetica, sans-serif;
@@ -262,8 +263,11 @@ ul {
   font-size: 14px;
 }
 .que-ofrecemos-container {
-  width: 1200;
-  height: 486;
+  width: auto;
+  padding-top: 94px;
+  background-color: #ffffff;
+  justify-content: center;
+  justify-items: center;
 }
 .que-ofrecemos-titulo {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -273,9 +277,9 @@ ul {
   text-align: center;
 }
 .imagenes-ofrecemos {
-  background: #fff;
+  width: 1200;
+  background: #ffffff;
   box-sizing: border-box;
-  display: inline-flex;
   display: flex;
   gap: 30px;
   justify-content: center;
@@ -289,15 +293,15 @@ ul {
   text-align: center;
 }
 .container-equipo {
-  width: 1200px;
-  margin: auto;
+  width: auto;
   justify-content: center;
-  background-color: #fff;
+  background-color: #f5f4fa;
   flex-basis: content;
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .lista-img-equipo {
-  background: rgb(255, 255, 255);
+  background: #f5f4fa;
   box-sizing: border-box;
   display: inline-flex;
   display: flex;
