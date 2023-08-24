@@ -3,19 +3,121 @@ a:visited,
 a:active {
   text-decoration: none;
 }
+:root {
+  --blue: #2196f3;
+  --black: #212121;
+}
 .outline {
   outline: none;
 }
 ul {
   list-style: none;
 }
+.p-0 {
+  margin: 0px;
+}
+.p-1 {
+  margin-left: 93px;
+}
 .container {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: auto;
   background-color: #ffffff;
 }
+/* Prueba de nuevos atributos del header */
+.list {
+  list-style: none;
+}
+.border-bottom {
+  border-bottom: #ececec 1px solid;
+}
+.navigation__container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding-left: 5px;
+}
+.pv-main {
+  padding: 24px 0px 25px 0px;
+}
+.hero__navegation {
+  display: flex;
+  column-gap: 80px;
+  justify-content: center;
+  align-content: center;
+  background-color: #ffffff;
+}
+.p-0 {
+  padding: 0px;
+}
+.m-0 {
+  margin: 0%;
+}
+.header-menu.current {
+  color: var(--blue);
+}
+.logo-blue {
+  color: var(--blue);
+  text-align: right;
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.link {
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17em;
+  letter-spacing: 0.02em;
+  text-align: left;
+  cursor: pointer;
+}
+.link:hover {
+  color: var(--blue);
+}
+.header-home {
+  margin-right: 50px;
+}
+.hero__contact {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.header-email {
+  font-family: 'Roboto', sans-serif;
+  color: #757575;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+.header-email:hover {
+  color: var(--blue);
+}
+.header-tel {
+  color: #757575;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.17em;
+  letter-spacing: 0.03px;
+  cursor: pointer;
+}
+.header-tel:hover {
+  color: var(--blue);
+}
+/* Fin codigo de prueba */
 .logo-inicio {
   color: #2196f3;
   font-weight: normal;
@@ -37,6 +139,8 @@ ul {
   justify-content: center;
   align-items: center;
   padding: 0%;
+  margin: 0px;
+  background-color: #ffb52c;
 }
 .site-nav:hover,
 .site-nav:focus {
@@ -57,6 +161,7 @@ ul {
   column-gap: 40px;
   justify-content: center;
   align-items: center;
+  margin-left: 0;
 }
 .current {
   color: #2196f3;
@@ -86,10 +191,9 @@ ul {
   background-color: #2196f3;
   border: none;
   border-radius: 4px;
-  width: 261px;
-  height: 50px;
   cursor: pointer;
   letter-spacing: 0.5px;
+  padding: 10px 32px;
 }
 .boton-solicitud:hover,
 .boton-solicitud:focus {
@@ -100,10 +204,9 @@ ul {
   background-color: #2196f3;
   border: none;
   border-radius: 4px;
-  width: 261px;
-  height: 50px;
   cursor: pointer;
   box-shadow: #000000 0px 4px 4px 0px;
+  padding: 10px 32px;
 }
 .slogan-top {
   color: white;
@@ -170,12 +273,13 @@ ul {
   text-align: center;
 }
 .imagenes-ofrecemos {
-  background: rgb(255, 255, 255);
+  background: #fff;
   box-sizing: border-box;
   display: inline-flex;
   display: flex;
   gap: 30px;
   justify-content: center;
+  padding-bottom: 94px;
 }
 .equipo {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -188,8 +292,9 @@ ul {
   width: 1200px;
   margin: auto;
   justify-content: center;
-  background-color: rgb(255, 255, 255);
+  background-color: #fff;
   flex-basis: content;
+  padding-bottom: 94px;
 }
 .lista-img-equipo {
   background: rgb(255, 255, 255);
@@ -265,16 +370,16 @@ ul {
   font-weight: normal;
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
-  line-height: 31px;
   letter-spacing: 0.04em;
   width: 1200px;
-  padding: 40px;
+  text-align: left;
+  /* padding-top: 60px; */
 }
 .direccion {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
   color: #ffffff99;
@@ -284,7 +389,7 @@ ul {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
   color: #ffffff;
@@ -292,11 +397,7 @@ ul {
 .footer-container {
   width: auto;
   background-color: #2f303a;
-  justify-content: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  display: flex;
-  margin-top: 60px;
+  justify-content: right;
 }
 .footer {
   background: #2f303a;
@@ -305,8 +406,8 @@ ul {
   background-color: #2f303a;
 }
 .container-contact {
-  max-width: 240px;
-  line-height: 10px;
+  max-width: 237px;
+  /* line-height: 10px; */
 }
 .email-footer {
   font-family: 'Roboto', sans-serif;
@@ -354,8 +455,8 @@ ul {
   margin-top: 106px;
 }
 .boton-top-portafolio {
-  width: 128px;
-  height: 38px;
+  /* width: 128px;
+  height: 38px; */
   top: 186px;
   left: 712px;
   border-radius: 4px;
@@ -372,8 +473,8 @@ ul {
 }
 .boton-top-portafolio:hover,
 .boton-top-portafolio:focus {
-  width: 128px;
-  height: 38px;
+  /* width: 128px;
+  height: 38px; */
   top: 186px;
   left: 712px;
   border-radius: 4px;
@@ -387,6 +488,21 @@ ul {
   border: none;
   background-color: #2196f3;
   cursor: pointer;
+}
+.boton-Todo {
+  padding: 6px 18px 6px 17px;
+}
+.boton-Sitios-web {
+  padding: 6px 24px 6px 24px;
+}
+.boton-Aplicaciones {
+  padding: 6px 24px 6px 23px;
+}
+.boton-Diseño {
+  padding: 6px 26px 6px 25px;
+}
+.boton-Marketing {
+  padding: 6px 26px 6px 27px;
 }
 .container-images-portafolio {
   background-color: #ffffff;
@@ -455,17 +571,10 @@ ul {
 .footer-container-portafolio {
   width: auto;
   background-color: #2f303a;
-  justify-content: center;
-  margin-top: 82px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  display: flex;
+  justify-content: right;
 }
-.footer-portafolio {
-  background: #2f303a;
-  width: 1200px;
-  /* display: flex; */
-  background-color: #2f303a;
+.footer-p {
+  padding: 60px 0px 47px 0px;
 }
 .direccion-portafolio {
   font-family: 'Roboto', sans-serif;
