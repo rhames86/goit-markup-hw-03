@@ -36,23 +36,28 @@ ul {
 .navigation__container {
   width: 1200px;
   display: flex;
-  background-color: #ffffff;
-  padding-left: 5px;
+  /* background-color: #ff0000; */
+  padding: 0%;
+  margin: 0%;
 }
 .pv-main {
-  padding: 24px 0px 25px 0px;
+  padding: 29px 0px 29px 0px;
+}
+.p-navigation-menu {
+  padding: 0px;
 }
 .pv-navigavion {
   padding-left: 93px;
 }
 .pv-contacts {
-  padding-left: 366px;
+  padding-left: 380px;
 }
 .hero__navegation {
   display: flex;
   column-gap: 50px;
   justify-content: flex-start;
   align-content: center;
+  align-items: center;
   background-color: #ffffff;
 }
 .p-0 {
@@ -72,6 +77,10 @@ ul {
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0.03em;
+  background-color: #ffffff;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
   cursor: pointer;
 }
 .link {
@@ -120,23 +129,23 @@ ul {
   line-height: 1.17em;
   letter-spacing: 0.03px;
   cursor: pointer;
+  background-color: #ffffff;
 }
 .header-tel:hover {
   color: var(--blue);
 }
 /* Fin codigo de prueba */
-.logo-inicio {
+/* .logo-inicio {
   color: #2196f3;
   font-weight: normal;
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   letter-spacing: 0.04em;
-  margin-right: 93px;
-  justify-content: center;
+  justify-content: flex-start;
+  align-content: center;
   align-items: center;
   cursor: pointer;
-  padding-top: 10px;
-}
+} */
 .site-nav {
   color: #212121;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -176,7 +185,7 @@ ul {
 }
 .container-nav {
   width: 1200px;
-  background-color: #ffffff;
+  background-color: #ffaa00;
   justify-content: space-between;
   display: flex;
 }
@@ -185,12 +194,15 @@ ul {
   background-color: #ffffff;
   justify-content: center;
   align-content: center;
-  align-items: center;
+  /* align-items: center; */
   display: flex;
+  padding: 0%;
+  margin: 0%;
 }
 .container-logo {
-  width: auto;
-  background-color: #ffffff;
+  /* width: auto; */
+  background-color: #ff00cc;
+  justify-content: flex-start;
   justify-content: center;
   align-content: center;
   align-items: center;
@@ -240,10 +252,10 @@ ul {
 }
 .container-slogan-top {
   width: 522px;
-  padding-top: 100px;
+  padding-top: 210px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 100px;
+  padding-bottom: 210px;
   margin: auto;
   align-items: center;
   background-color: #2f303a;
@@ -327,6 +339,10 @@ ul {
   width: 270px;
   background-color: #ffffff;
   padding-bottom: 15px;
+  justify-content: center;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   justify-content: center;
 }
 .container-cards:hover {
@@ -419,7 +435,7 @@ ul {
   padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 .footer {
   background: #2f303a;
