@@ -96,6 +96,9 @@ ul {
 .link:hover {
   color: var(--blue);
 }
+.link:focus {
+  color: var(--blue);
+}
 .header-logo {
   padding-left: 0px;
 }
